@@ -12,7 +12,9 @@ TODO
 
 ## Usage
 
-Create a pd.DataFrame as normal, then run clean() method to fix the column names. This adds a clean() method to all pd.DataFrames
+Create a pd.DataFrame as normal, then run clean() method to fix the column
+names. This adds a clean() method to all pd.DataFrames, calling this method
+fixes the columns in place.
 ```python
 from src.fixdfcols import CleanDF
 bad_df = pd.DataFrame(columns=['abc -@#ab%@', '12 3', 'a**bcCCC'])
