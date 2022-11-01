@@ -2,9 +2,9 @@
 
 I dislike columns with names that slow my work. This package will convert all columns names to [snake_case](https://en.wikipedia.org/wiki/Snake_case), using the following rules:
 
-1. Everything is converted to lowercase
-2. All spaces are replaces with underscores
-3. Everything that isn't a letter, digit, or underscore is removed
+1. Everything (all columns) are converted to lowercase.
+2. All spaces are replaces with underscores.
+3. Everything that isn't a letter, digit, or underscore (in a column name) is removed.
 
 ## Installation
 
