@@ -22,7 +22,9 @@ bad_df = pd.DataFrame(columns=['abc -@#ab%@', '12 3', 'a**bcCCC'])
 bad_df.clean()
 # bad_df.columns
 #   Index(['abc_ab', '12_3', 'abc'], dtype='object')
-
+```
+Standalone example
+```python
 # a python list or pd.Index works as a manual fix 
 from src.fixdfcols import FixCols
 clean_cols = FixCols(['abc -@#ab%@', '12 3', 'a**bcEB']).columns_clean
