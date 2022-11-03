@@ -1,6 +1,7 @@
 from pandas import Index as pd_Index
 from string import ascii_lowercase, digits
 import pandas as pd
+import sys
 
 
 class FixCols:
@@ -60,3 +61,10 @@ class CleanDF():
         pass
 
 
+
+
+def main():
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())
