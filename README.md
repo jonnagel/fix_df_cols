@@ -8,6 +8,7 @@ I dislike columns with names that slow my work. This package will convert all co
 
 ## Installation
 
+git clone https://github.com/jonnagel/fix_df_cols.git
 TODO
 
 ## Usage
@@ -16,7 +17,7 @@ Create a pd.DataFrame as normal, then run clean() method to fix the column
 names. This adds a clean() method to all pd.DataFrames, calling this method
 fixes the columns in place.
 ```python
-from src.fixdfcols import CleanDF
+from fix_df_cols.src.fixdfcols import CleanDF
 bad_df = pd.DataFrame(columns=['abc -@#ab%@', '12 3', 'a**bcCCC'])
 # bad_df.columns
 #   Index(['abc -@#ab%@', '12 3', 'a**bc'], dtype='object')
